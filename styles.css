@@ -1,0 +1,36 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    display: flex;
+}
+
+.panel {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    border: 3px solid #333;
+    transition: background-color 0.3s;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#win-message {
+    margin-top: 20px;
+    font-size: 24px;
+    color: #28a745;
+    text-align: center;
+}
